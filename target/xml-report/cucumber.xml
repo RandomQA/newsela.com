@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="57.647">
+    <testcase classname="Home Page Control" name="Homepage navigation and check all links" time="45.831">
+        <system-out>
+            <![CDATA[Given User goes to newsela.com Homepage "base_URL"..........................passed
+Given User close the announcement bar.......................................passed
+And User hover over to the header links one by one..........................passed
+Then User clicks learn more button..........................................passed
+And User scroll down to the bottom of the page..............................passed
+Then User hover over to the links one by one at the top of the page.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home Page Control" name="Checking Team members of Newsela and find the Duplicated one" time="11.374">
+        <system-out>
+            <![CDATA[Given User goes to newsela.com Homepage "base_URL"..........................passed
+Given User Hover over to the Company link...................................passed
+Then User Clicks the Team link..............................................passed
+And User gets the team members name.........................................passed
+When Check the names for duplicated one.....................................passed
+Then Write the duplicated names to the 'Some Details About Newsela.com Text File' if there is..passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
