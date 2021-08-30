@@ -28,45 +28,19 @@ public class C_Apply_StepDefinitions {
     @And("User scroll down till TECHNOLOGY cathegory")
     public void userScrollDownTillTECHNOLOGYCathegory() {
         ReusableMethods.waitFor(3);
-//        actions.sendKeys(Keys.PAGE_DOWN).
-//                sendKeys(Keys.PAGE_DOWN).
-//                sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).
-//                sendKeys(Keys.PAGE_DOWN).
-//                sendKeys(Keys.PAGE_DOWN).build().
-//                                perform();
-//        c_apply_page.getInTouchPopUp.click();
-//        JavascriptExecutor je = (JavascriptExecutor) Driver.getDriver();
-//        je.executeScript("arguments[0].scrollIntoView(true);", c_apply_page.QualityEngineerLink);
         actions.sendKeys(Keys.END).perform();
         ReusableMethods.waitFor(6);
         c_apply_page.getInTouchPopUp.click();
         ReusableMethods.waitFor(2);
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-        actions.sendKeys(Keys.PAGE_UP).perform();
-
-
-
-
-
     }
 
     @Then("User clicks Quality Engineer link")
     public void userClicksQualityEngineerLink() {
         Driver.getDriver().switchTo().frame("grnhse_iframe");
         ReusableMethods.waitFor(1);
+        JavascriptExecutor je = (JavascriptExecutor) Driver.getDriver();
+        je.executeScript("arguments[0]. scrollIntoView(true);", c_apply_page.technologyLink);
         c_apply_page.QualityEngineerLink.click();
-        Driver.getDriver().switchTo().parentFrame();
-        ReusableMethods.waitForVisibility(c_apply_page.QualityEngineerLink, 10);
-        //=====> Buraya kadar getir, Basvur a tiklama, orayi kirmizi border yap. testi bitir...
-
-
+        ReusableMethods.waitForVisibility(c_apply_page.QualityEngineerLink, 5);
     }
 }

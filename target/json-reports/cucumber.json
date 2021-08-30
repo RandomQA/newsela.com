@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "HomePage URL",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 8588790400,
+              "duration": 13980595400,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User goes to newsela.com Homepage \"base_URL\"",
             "match": {
               "arguments": [
@@ -30,20 +30,20 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-27T21:05:00.807Z",
-        "line": 7,
+        "start_timestamp": "2021-08-30T21:15:39.084Z",
+        "line": 8,
         "name": "Homepage navigation and check all links",
         "description": "",
-        "id": "home-page-control;homepage-navigation-and-check-all-links",
+        "id": "home-page;homepage-navigation-and-check-all-links",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 158601600,
+              "duration": 170363200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User close the announcement bar",
             "match": {
               "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userCloseTheAnnouncementBar()"
@@ -52,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 16598743600,
+              "duration": 16549318800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User hover over to the header links one by one",
             "match": {
               "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userHoverOverToTheHeaderLinksOneByOne()"
@@ -64,10 +64,10 @@
           },
           {
             "result": {
-              "duration": 497914100,
+              "duration": 504005400,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "User clicks learn more button",
             "match": {
               "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userClicksLearnMoreButton()"
@@ -76,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 11769999000,
+              "duration": 12016061300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "User scroll down to the bottom of the page",
             "match": {
               "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userScrollDownToTheBottomOfThePage()"
@@ -88,10 +88,10 @@
           },
           {
             "result": {
-              "duration": 8107183100,
+              "duration": 8612573500,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "User hover over to the links one by one at the top of the page",
             "match": {
               "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userHoverOverToTheLinksOneByOneAtTheTopOfThePage()"
@@ -109,9 +109,9 @@
         ]
       }
     ],
-    "name": "Home Page Control",
+    "name": "Home Page",
     "description": "",
-    "id": "home-page-control",
+    "id": "home-page",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/A_homepage.feature",
     "tags": [
@@ -137,7 +137,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 3,
+        "line": 4,
         "name": "HomePage URL",
         "description": "",
         "type": "background",
@@ -145,10 +145,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3245002700,
+              "duration": 3875611600,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "User goes to newsela.com Homepage \"base_URL\"",
             "match": {
               "arguments": [
@@ -164,20 +164,20 @@
         ]
       },
       {
-        "start_timestamp": "2021-08-27T21:05:46.681Z",
-        "line": 6,
+        "start_timestamp": "2021-08-30T21:16:31.099Z",
+        "line": 7,
         "name": "Checking Team members of Newsela and find the Duplicated one",
         "description": "",
-        "id": "home-page-control;checking-team-members-of-newsela-and-find-the-duplicated-one",
+        "id": "home-page;checking-team-members-of-newsela-and-find-the-duplicated-one",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2543010700,
+              "duration": 2420668800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "User Hover over to the Company link",
             "match": {
               "location": "newsela.stepdefinitions.B_Team_StepDefinitions.userHoverOverToTheCompanyLink()"
@@ -186,10 +186,10 @@
           },
           {
             "result": {
-              "duration": 3176206300,
+              "duration": 2849051200,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "User Clicks the Team link",
             "match": {
               "location": "newsela.stepdefinitions.B_Team_StepDefinitions.userClicksTheTeamLink()"
@@ -198,10 +198,10 @@
           },
           {
             "result": {
-              "duration": 2390324600,
+              "duration": 2485037800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "User gets the team members name",
             "match": {
               "location": "newsela.stepdefinitions.B_Team_StepDefinitions.userGetsTheTeamMembersName()"
@@ -210,10 +210,9 @@
           },
           {
             "result": {
-              "duration": 997500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "Check the names for duplicated one",
             "match": {
               "location": "newsela.stepdefinitions.B_Team_StepDefinitions.checkTheNamesForDuplicatedOne()"
@@ -224,7 +223,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "Write the duplicated names to the \u0027Some Details About Newsela.com Text File\u0027 if there is.",
             "match": {
               "location": "newsela.stepdefinitions.B_Team_StepDefinitions.writeTheDuplicatedNameToTheDetailsFileIfThereIs()"
@@ -242,9 +241,9 @@
         ]
       }
     ],
-    "name": "Home Page Control",
+    "name": "Home Page",
     "description": "",
-    "id": "home-page-control",
+    "id": "home-page",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/B_team.feature",
     "tags": [
@@ -262,6 +261,141 @@
         "location": {
           "line": 1,
           "column": 7
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "HomePage URL",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2525125700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to newsela.com Homepage \"base_URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base_URL\"",
+                  "offset": 34
+                }
+              ],
+              "location": "newsela.stepdefinitions.A_HomePage_StepDefinitions.userGoesToNewselaComHomepage(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-30T21:16:42.775Z",
+        "line": 7,
+        "name": "Apply for joining newsela team",
+        "description": "",
+        "id": "home-page;apply-for-joining-newsela-team",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2595941900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Hover over to the Company link",
+            "match": {
+              "location": "newsela.stepdefinitions.B_Team_StepDefinitions.userHoverOverToTheCompanyLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235005100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Clicks the Career link",
+            "match": {
+              "location": "newsela.stepdefinitions.C_Apply_StepDefinitions.userClicksTheCareerLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3562529200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks the Join our Team Button",
+            "match": {
+              "location": "newsela.stepdefinitions.C_Apply_StepDefinitions.userClicksTheJoinOurTeamButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11420286800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User scroll down till TECHNOLOGY cathegory",
+            "match": {
+              "location": "newsela.stepdefinitions.C_Apply_StepDefinitions.userScrollDownTillTECHNOLOGYCathegory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: (//a[@target\u003d\u0027_top\u0027])[47]\u0027 (tried for 10 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat newsela.utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:157)\r\n\tat newsela.stepdefinitions.C_Apply_StepDefinitions.userClicksQualityEngineerLink(C_Apply_StepDefinitions.java:67)\r\n\tat ✽.User clicks Quality Engineer link(file:///C:/Users/alica/eclipse-workspace/newsela.com/src/test/resources/features/C_apply.feature:12)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[@target\u003d\u0027_top\u0027])[47]\"}\n  (Session info: chrome\u003d92.0.4515.159)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027ALICAN\u0027, ip: \u0027192.168.1.21\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\alica\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61768}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a055c9adeefbc4fee9876a62e4bafd07\n*** Element info: {Using\u003dxpath, value\u003d(//a[@target\u003d\u0027_top\u0027])[47]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy21.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat newsela.utilities.ReusableMethods.waitForVisibility(ReusableMethods.java:157)\r\n\tat newsela.stepdefinitions.C_Apply_StepDefinitions.userClicksQualityEngineerLink(C_Apply_StepDefinitions.java:67)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\r\n\tat com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)\r\n\tat com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)\r\n\tat com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)\r\n\tat com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)\r\n",
+              "duration": 44537853800,
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "User clicks Quality Engineer link",
+            "match": {
+              "location": "newsela.stepdefinitions.C_Apply_StepDefinitions.userClicksQualityEngineerLink()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@apply"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/C_apply.feature",
+    "tags": [
+      {
+        "name": "@apply",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
         }
       }
     ]

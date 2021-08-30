@@ -160,3 +160,75 @@
 2021-08-28 02:39:36 INFO  Log4j:21 - User goes to the Home Page of newsela.com
 2021-08-28 02:39:42 INFO  Log4j:21 - User close the announcement bar
 2021-08-28 02:39:42 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 00:15:44 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:15:44 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:15:53 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:15:53 INFO  Log4j:21 - User hover over to the header links one by one
+2021-08-31 00:16:09 INFO  Log4j:21 - User close the get in touch pop up
+2021-08-31 00:16:09 INFO  Log4j:21 - User clicks the Learn More Button
+2021-08-31 00:16:10 INFO  Log4j:21 - User switched to the new tab
+2021-08-31 00:16:10 INFO  Log4j:21 - User scroll down to the bottom of the page
+2021-08-31 00:16:22 INFO  Log4j:21 - User hover over to the links one by one at the top of the page and make red border for them.
+2021-08-31 00:16:31 INFO  Log4j:16 - Test is Ending...
+2021-08-31 00:16:31 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:16:31 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:16:35 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:16:35 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 00:16:37 INFO  Log4j:21 - User Clicks the Team link
+2021-08-31 00:16:40 INFO  Log4j:21 - User scroll down one time
+2021-08-31 00:16:40 INFO  Log4j:21 - User gets the team members name&surname and added to the 'Some Details About Newsela.com Text File'
+2021-08-31 00:16:42 INFO  Log4j:21 - User Check the names for duplicated one
+2021-08-31 00:16:42 INFO  Log4j:21 - User printed the duplicated names on 'Some Details About Newsela.com Text File' if there is.
+2021-08-31 00:16:42 INFO  Log4j:16 - Test is Ending...
+2021-08-31 00:16:42 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:16:42 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:16:45 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:16:45 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 00:52:03 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:52:03 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:52:09 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:52:10 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 00:52:53 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:52:53 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:52:59 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:52:59 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 00:59:15 INFO  Log4j:11 - Test is Starting...
+2021-08-31 00:59:15 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 00:59:22 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 00:59:22 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:00:32 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:00:32 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:00:37 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:00:38 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:02:08 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:02:08 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:02:14 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:02:14 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:04:59 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:04:59 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:05:06 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:05:06 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:07:04 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:07:04 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:07:10 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:07:10 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:09:57 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:09:57 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:10:03 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:10:03 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:12:34 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:12:34 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:12:39 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:12:40 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:13:21 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:13:21 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:13:26 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:13:26 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:14:34 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:14:34 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:14:52 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:14:52 INFO  Log4j:21 - User Hover over to the Company link
+2021-08-31 01:16:17 INFO  Log4j:11 - Test is Starting...
+2021-08-31 01:16:17 INFO  Log4j:21 - User goes to the Home Page of newsela.com
+2021-08-31 01:16:22 INFO  Log4j:21 - User close the announcement bar
+2021-08-31 01:16:22 INFO  Log4j:21 - User Hover over to the Company link
